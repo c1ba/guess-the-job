@@ -11,7 +11,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"test": "npm run test:unit -- --run"
+		"test": "npm run test:unit -- --run",
+		"deploy": "npm build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.8",
@@ -21,6 +22,7 @@
 		"@testing-library/svelte": "^5.2.4",
 		"@types/canvas-confetti": "^1.9.0",
 		"@types/lodash": "^4.17.16",
+		"gh-pages": "^6.3.0",
 		"jsdom": "^26.0.0",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
