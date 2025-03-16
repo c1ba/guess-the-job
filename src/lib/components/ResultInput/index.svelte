@@ -44,7 +44,7 @@ const handleInput = (e: Event & {
 }
 </script>
 <div>
-    <label for="text-answer">My job is</label>
+    <label for="text-answer">I am the</label>
     <input id="text-answer" type="text" placeholder="<insert job here>" oninput={handleInput} disabled={$result === answer?.value}/>
 </div>
 <style>
