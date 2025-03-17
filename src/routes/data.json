@@ -1,4 +1,4 @@
 {
     "options": ["Plant Operator", "Electrician", "Manufacturing Machine Operator", "Engine Room Operator"],
-    "hints": ["I work with big machines", "I make sure cities have power and clean water", "I might work when people are asleep", "If you fire me, you might want me back", "If anything goes bad, I have to act fast", "I help keep the environment safe"]
+    "hints": ["I work with big machines", "I make sure cities have power and clean water", "I might work when people are asleep", "If anything goes bad, I have to act fast", "I help keep the environment safe"]
 }
